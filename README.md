@@ -78,6 +78,3 @@ This will generate a production build (Vite default output is typically `dist/`)
 - SVG imports are supported via `vite-plugin-svgr` (see `vite.config.ts`).
 - If you use EmailJS in the app, you’ll likely need to configure keys via environment variables (e.g. a `.env` file). If you add env vars, remember to **not commit secrets**—use `.env.example` for placeholders.
 
-## License
-
-Add a license if/when you’re ready (e.g., MIT). If you already have a preferred license, create a `LICENSE` file and update this section.
