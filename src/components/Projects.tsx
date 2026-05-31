@@ -40,11 +40,11 @@ const Projects: React.FC = () => {
   },
   {
     id: 5,
-    title: 'Stock Trading System',
-    description: 'This is a project showing how to implement a stock trading strategy using a Simple Moving Average (SMA) Crossover approach with Python and PostgreSQL. It imports stock data from an Excel file into a database, implements a trading strategy based on short-term and long-term SMAs, and validates the data with unit tests. The project is divided into folders for data, database setup, strategy implementation, and testing, thus ensuring efficient management and execution of the trading strategy.',
-    image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/1734796608193.jpg',
-    category: 'app',
-    link: 'https://github.com/merciless-admiral-3083/Stock-Trading-Strategy'
+    title: 'RAG Based Chatbot for Legal Domain Related Queries',
+    description: 'build a domain-specific RAG-based chatbot using LangChain, Hugging Face Transformers, and FAISS. The chatbot is designed to answer legal domain-related queries by retrieving relevant information from a vector store of legal documents and generating context-aware responses using a pre-trained language model.',
+    image: 'https://github.com/merciless-admiral-3083/project/raw/main/Images/Gemini_Generated_Image_w624zaw624zaw624.png',
+    category: 'web',
+    link: 'https://github.com/merciless-admiral-3083/Expedien_RAG'
   },
   {
     id: 6,
@@ -104,12 +104,13 @@ const Projects: React.FC = () => {
   },
   {
     id: 13,
-    title: 'RAG Based Chatbot for Legal Domain Related Queries',
-    description: 'build a domain-specific RAG-based chatbot using LangChain, Hugging Face Transformers, and FAISS. The chatbot is designed to answer legal domain-related queries by retrieving relevant information from a vector store of legal documents and generating context-aware responses using a pre-trained language model.',
-    image: 'https://github.com/merciless-admiral-3083/project/raw/main/Images/Gemini_Generated_Image_w624zaw624zaw624.png',
-    category: 'web',
-    link: 'https://github.com/merciless-admiral-3083/Expedien_RAG'
+    title: 'Stock Trading System',
+    description: 'This is a project showing how to implement a stock trading strategy using a Simple Moving Average (SMA) Crossover approach with Python and PostgreSQL. It imports stock data from an Excel file into a database, implements a trading strategy based on short-term and long-term SMAs, and validates the data with unit tests. The project is divided into folders for data, database setup, strategy implementation, and testing, thus ensuring efficient management and execution of the trading strategy.',
+    image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/1734796608193.jpg',
+    category: 'app',
+    link: 'https://github.com/merciless-admiral-3083/Stock-Trading-Strategy'
   }
+  
 ];
   
   const filters = [
