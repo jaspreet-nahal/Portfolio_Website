@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+	}
+
+	body {
+		@apply bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+		overflow-x: hidden;
+		min-width: 320px;
+	}
+
+	img,
+	svg {
+		display: block;
+		max-width: 100%;
+	}
+}

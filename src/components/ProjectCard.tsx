@@ -8,7 +8,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
-    <div className="bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+    <div className="bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl max-w-md mx-auto w-full">
       <div className="relative group">
         <div className="aspect-video overflow-hidden">
           <img 
@@ -17,7 +17,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4 sm:p-6">
           <a 
             href={project.link} 
               target="_blank"
@@ -28,9 +28,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           </a>
         </div>
       </div>
-      <div className="p-6">
-        <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{project.title}</h3>
-        <p className="text-gray-700 dark:text-gray-300 mb-4">{project.description}</p>
+      <div className="p-5 sm:p-6">
+        <h3 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white mb-2 leading-tight">{project.title}</h3>
+        <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">{project.description}</p>
         <div className="flex justify-between items-center">
           <span className="text-sm text-blue-600 dark:text-blue-400 font-medium capitalize">
             {project.category === 'web' ? 'Web Development' : 

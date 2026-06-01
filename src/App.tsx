@@ -30,12 +30,12 @@ function App() {
   };
 
   return (
-    <div className={darkMode ? 'dark' : ''}>
+    <div className={`${darkMode ? 'dark' : ''} overflow-x-hidden`}>
       <Analytics />
       <SpeedInsights/>
       
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <main>
+      <main className="overflow-x-hidden">
         <Hero />
         <Suspense fallback={<div className="text-center py-10 text-gray-500">Loading sections...</div>}>
         <About />

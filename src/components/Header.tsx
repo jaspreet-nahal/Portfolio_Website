@@ -41,10 +41,10 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
           : 'bg-transparent'
       } ${darkMode ? 'dark' : ''}`}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-3 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex-shrink-0">
-            <a href="#home" className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white">
+            <a href="#home" className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 dark:text-white">
               Portfolio
             </a>
           </div>
@@ -86,7 +86,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-blue-400 dark:hover:bg-gray-800"
+                className="block px-3 py-3 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-blue-400 dark:hover:bg-gray-800"
               >
                 {link.name}
               </a>
