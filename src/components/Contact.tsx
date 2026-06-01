@@ -55,9 +55,9 @@ const Contact: React.FC = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-800">
+    <section id="contact" className="py-16 md:py-20 bg-gray-50 dark:bg-gray-800">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Get In Touch</h2>
           <div className="w-20 h-1 bg-blue-600 dark:bg-blue-400 mx-auto mb-8"></div>
           <p className="max-w-2xl mx-auto text-lg text-gray-700 dark:text-gray-300">
@@ -65,8 +65,8 @@ const Contact: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-md p-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+          <div className="bg-white dark:bg-gray-900 rounded-xl shadow-md p-6 sm:p-8">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Send Me a Message</h3>
             
             <form onSubmit={handleSubmit}>
@@ -152,7 +152,7 @@ const Contact: React.FC = () => {
           </div>
           
           <div>
-            <div className="bg-white dark:bg-gray-900 rounded-xl shadow-md p-8 mb-8">
+            <div className="bg-white dark:bg-gray-900 rounded-xl shadow-md p-6 sm:p-8 mb-8">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Contact Information</h3>
               
               <div className="space-y-6">
@@ -175,10 +175,10 @@ const Contact: React.FC = () => {
               </div>
             </div>
             
-            <div className="bg-white dark:bg-gray-900 rounded-xl shadow-md p-8">
+            <div className="bg-white dark:bg-gray-900 rounded-xl shadow-md p-6 sm:p-8">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Connect With Me</h3>
               
-              <div className="flex space-x-4">
+              <div className="flex flex-wrap gap-4">
                 <a 
                   href="https://github.com/merciless-admiral-3083" 
                   className="p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-blue-800/40 transition-colors"
