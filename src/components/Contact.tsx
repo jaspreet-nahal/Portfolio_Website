@@ -180,7 +180,7 @@ const Contact: React.FC = () => {
               
               <div className="flex flex-wrap gap-4">
                 <a 
-                  href="https://github.com/merciless-admiral-3083" 
+                  href="https://github.com/jaspreet-nahal" 
                   className="p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-blue-800/40 transition-colors"
                   aria-label="GitHub"
                 >

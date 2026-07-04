@@ -10,95 +10,95 @@ const Projects: React.FC = () => {
     id: 1,
     title: 'Aria — Autonomous Digital Employee',
     description: 'A local-first autonomous digital employee that runs entirely on your machine. Converts natural language instructions into structured OS-level task execution across files, email, and browser. Features a multi-agent debate layer for safe execution, tiered safety classification, and persistent cross-session memory via FAISS + SQLite. Zero cloud dependency — all inference runs locally via Ollama.',
-    image: 'https://github.com/merciless-admiral-3083/Portfolio_Website/raw/main/Images/Bright%20Logo.png',
+    image: 'https://github.com/jaspreet-nahal/Portfolio_Website/raw/main/Images/Bright%20Logo.png',
     category: 'app',
-    link: 'https://github.com/merciless-admiral-3083/Aria'
+    link: 'https://github.com/jaspreet-nahal/Aria'
   },
   {
     id: 2,
     title: 'Context-Grounded GPT-RAG System',
     description: 'Built and pretrained a GPT-style transformer from scratch in PyTorch with causal self-attention, custom initialization, and GPT-2 tokenization on 10B FineWeb-Edu tokens. Implemented Retrieval-Augmented Generation using Sentence Transformers and FAISS, achieving sub-200ms retrieval latency and reduced hallucinations via confidence-based gating.',
-    image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/Screenshot%202025-08-27%20103737.png',
+    image: 'https://github.com/jaspreet-nahal/my-images/raw/main/Screenshot%202025-08-27%20103737.png',
     category: 'app',
-    link: 'https://github.com/merciless-admiral-3083/RAG-GPT'
+    link: 'https://github.com/jaspreet-nahal/RAG-GPT'
   },
   {
     id: 3,
     title: 'CodeAtlas',
     description: 'An interactive codebase analysis and visualization tool that extracts structure and semantics from repositories, builds dependency and semantic graphs, and exposes AI-powered endpoints for exploring and explaining code. Features a FastAPI backend for ingestion and analysis, a Vite + React frontend for graph visualization, and supports ingestion via GitHub URL, zip upload, or pasted code.',
-    image: 'https://github.com/merciless-admiral-3083/Portfolio_Website/raw/main/Images/ChatGPT%20Image%20May%2031%2C%202026%2C%2004_59_20%20PM.png',
+    image: 'https://github.com/jaspreet-nahal/Portfolio_Website/raw/main/Images/ChatGPT%20Image%20May%2031%2C%202026%2C%2004_59_20%20PM.png',
     category: 'app',
-    link: 'https://github.com/merciless-admiral-3083/CodeAtlas'
+    link: 'https://github.com/jaspreet-nahal/CodeAtlas'
   },
   {
     id: 4,
     title: 'NyayaSetu',
     description: 'A web application for automated legal-document analysis and insights. Combines a Next.js frontend with RAG utilities and MongoDB for persisted analysis history. Supports multiple LLM backends (Anthropic, Gemini), generates human-friendly summaries in Hindi and English with risk highlighting, and allows users to export and share analysis results.',
-    image: 'https://github.com/merciless-admiral-3083/Portfolio_Website/raw/main/Images/Screenshot%202026-05-31%20163331.png',
+    image: 'https://github.com/jaspreet-nahal/Portfolio_Website/raw/main/Images/Screenshot%202026-05-31%20163331.png',
     category: 'app',
-    link: 'https://github.com/merciless-admiral-3083/Nyaya_Setu'
+    link: 'https://github.com/jaspreet-nahal/Nyaya_Setu'
   },
   {
     id: 5,
     title: 'RAG Based Chatbot for Legal Domain Related Queries',
     description: 'build a domain-specific RAG-based chatbot using LangChain, Hugging Face Transformers, and FAISS. The chatbot is designed to answer legal domain-related queries by retrieving relevant information from a vector store of legal documents and generating context-aware responses using a pre-trained language model.',
-    image: 'https://github.com/merciless-admiral-3083/project/raw/main/Images/Gemini_Generated_Image_w624zaw624zaw624.png',
+    image: 'https://github.com/jaspreet-nahal/project/raw/main/Images/Gemini_Generated_Image_w624zaw624zaw624.png',
     category: 'web',
-    link: 'https://github.com/merciless-admiral-3083/Expedien_RAG'
+    link: 'https://github.com/jaspreet-nahal/Expedien_RAG'
   },
   {
     id: 6,
     title: 'OTT Platform: PLAYZEN',
     description: 'Developed an online OTT Platform to stream movies, TV Shows, Web Series and much more! It tracks users interest and content preference for better recommendations! The app also does not require sign-in which makes it open-to-all!',
-    image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/1740989683037.jpg',
+    image: 'https://github.com/jaspreet-nahal/my-images/raw/main/1740989683037.jpg',
     category: 'app',
-    link: 'https://github.com/merciless-admiral-3083/PLAYZEN'
+    link: 'https://github.com/jaspreet-nahal/PLAYZEN'
   },
   {
     id: 7,
     title: 'Chatbot',
     description: 'This is my project regarding a chatbot that i made using React, python and other tools',
-    image: 'https://github.com/merciless-admiral-3083/project/raw/main/Images/Gemini_Generated_Image_k6joz1k6joz1k6jo.png',
+    image: 'https://github.com/jaspreet-nahal/project/raw/main/Images/Gemini_Generated_Image_k6joz1k6joz1k6jo.png',
     category: 'web',
-    link: 'https://github.com/merciless-admiral-3083/AI_US'
+    link: 'https://github.com/jaspreet-nahal/AI_US'
   },
   {
     id: 8,
     title: 'Resume Skill Extractor',
     description: 'Engineered an AI-powered skill extraction tool leveraging NLP pipelines (spaCy, regex, TF-IDF) for entity recognition from resumes. Built REST APIs with FastAPI, extracting resume skills with 85%+ accuracy and processing each file in under 2 seconds. Deployed the backend model and UI on a containerized dev environment using GitHub Actions.',
-    image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/Screenshot%202025-09-01%20213217.png',
+    image: 'https://github.com/jaspreet-nahal/my-images/raw/main/Screenshot%202025-09-01%20213217.png',
     category: 'app',
-    link: 'https://github.com/merciless-admiral-3083/ResumeSkillPro'
+    link: 'https://github.com/jaspreet-nahal/ResumeSkillPro'
   },
   {
     id: 9,
     title: 'AI Restaurant Manager',
     description: 'My project is a restaurant appointment scheduling chatbot based on AI to facilitate quick and easy reservation booking for restaurants. It automates reservation management, minimizes manual labor, and improves customer satisfaction through real-time availability and instant confirmation.',
-    image: 'https://github.com/merciless-admiral-3083/project/raw/main/Images/Gemini_Generated_Image_gz25ylgz25ylgz25.png',
+    image: 'https://github.com/jaspreet-nahal/project/raw/main/Images/Gemini_Generated_Image_gz25ylgz25ylgz25.png',
     category: 'app',
-    link: 'https://github.com/merciless-admiral-3083/AI-Restro-Manager'
+    link: 'https://github.com/jaspreet-nahal/AI-Restro-Manager'
   },
   {
     id: 10,
     title: 'AI Document Reader',
     description: 'Developed an intelligent document processing system that uses advanced AI algorithms to analyze and engage with one or multiple documents uploaded by users. Features smooth upload and document handling, ability to ask contextual questions and get accurate answers from the document(s), and enhanced natural language processing for a better user experience.',
-    image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/1734851602981.jpg',
+    image: 'https://github.com/jaspreet-nahal/my-images/raw/main/1734851602981.jpg',
     category: 'app',
-    link: 'https://github.com/merciless-admiral-3083/AI-Document-Reader'
+    link: 'https://github.com/jaspreet-nahal/AI-Document-Reader'
   },
   {
     id: 11,
     title: 'QR Code Generator',
     description: 'A sleek and responsive web application that allows users to generate and download QR codes for any URL in seconds.',
-    image: 'https://github.com/merciless-admiral-3083/project/raw/main/Images/Gemini_Generated_Image_swvh90swvh90swvh.png',
+    image: 'https://github.com/jaspreet-nahal/project/raw/main/Images/Gemini_Generated_Image_swvh90swvh90swvh.png',
     category: 'web',
-    link: 'https://github.com/merciless-admiral-3083/QR'
+    link: 'https://github.com/jaspreet-nahal/QR'
   },
   {
     id: 12,
     title: 'Invoice Similarity Matching System',
     description: 'This framework uses a combination of text extraction, feature extraction, structural analysis and similarity calculation in order to be able to find out the invoice which has maximum similarities with some other data.',
-    image: 'https://github.com/merciless-admiral-3083/project/raw/main/Images/1722439516480.jpg',
+    image: 'https://github.com/jaspreet-nahal/project/raw/main/Images/1722439516480.jpg',
     category: 'web',
     link: '#'
   },
@@ -106,9 +106,9 @@ const Projects: React.FC = () => {
     id: 13,
     title: 'Stock Trading System',
     description: 'This is a project showing how to implement a stock trading strategy using a Simple Moving Average (SMA) Crossover approach with Python and PostgreSQL. It imports stock data from an Excel file into a database, implements a trading strategy based on short-term and long-term SMAs, and validates the data with unit tests. The project is divided into folders for data, database setup, strategy implementation, and testing, thus ensuring efficient management and execution of the trading strategy.',
-    image: 'https://github.com/merciless-admiral-3083/my-images/raw/main/1734796608193.jpg',
+    image: 'https://github.com/jaspreet-nahal/my-images/raw/main/1734796608193.jpg',
     category: 'app',
-    link: 'https://github.com/merciless-admiral-3083/Stock-Trading-Strategy'
+    link: 'https://github.com/jaspreet-nahal/Stock-Trading-Strategy'
   }
   
 ];
