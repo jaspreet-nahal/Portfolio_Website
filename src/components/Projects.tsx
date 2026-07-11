@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
     id: 5,
     title: 'RAG Based Chatbot for Legal Domain Related Queries',
     description: 'build a domain-specific RAG-based chatbot using LangChain, Hugging Face Transformers, and FAISS. The chatbot is designed to answer legal domain-related queries by retrieving relevant information from a vector store of legal documents and generating context-aware responses using a pre-trained language model.',
-    image: 'https://github.com/jaspreet-nahal/project/raw/main/Images/Gemini_Generated_Image_w624zaw624zaw624.png',
+    image: 'https://github.com/jaspreet-nahal/Portfolio_Website/raw/main/Images/Gemini_Generated_Image_w624zaw624zaw624.png',
     category: 'web',
     link: 'https://github.com/jaspreet-nahal/Expedien_RAG'
   },
