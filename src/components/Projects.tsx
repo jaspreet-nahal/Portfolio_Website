@@ -58,7 +58,7 @@ const Projects: React.FC = () => {
     id: 7,
     title: 'Chatbot',
     description: 'This is my project regarding a chatbot that i made using React, python and other tools',
-    image: 'https://github.com/jaspreet-nahal/project/raw/main/Images/Gemini_Generated_Image_k6joz1k6joz1k6jo.png',
+    image: 'https://github.com/jaspreet-nahal/Portfolio_Website/raw/main/Images/Gemini_Generated_Image_k6joz1k6joz1k6jo.png',
     category: 'web',
     link: 'https://github.com/jaspreet-nahal/AI_US'
   },
@@ -74,7 +74,7 @@ const Projects: React.FC = () => {
     id: 9,
     title: 'AI Restaurant Manager',
     description: 'My project is a restaurant appointment scheduling chatbot based on AI to facilitate quick and easy reservation booking for restaurants. It automates reservation management, minimizes manual labor, and improves customer satisfaction through real-time availability and instant confirmation.',
-    image: 'https://github.com/jaspreet-nahal/project/raw/main/Images/Gemini_Generated_Image_gz25ylgz25ylgz25.png',
+    image: 'https://github.com/jaspreet-nahal/Portfolio_Website/raw/main/Images/Gemini_Generated_Image_gz25ylgz25ylgz25.png',
     category: 'app',
     link: 'https://github.com/jaspreet-nahal/AI-Restro-Manager'
   },
@@ -90,7 +90,7 @@ const Projects: React.FC = () => {
     id: 11,
     title: 'QR Code Generator',
     description: 'A sleek and responsive web application that allows users to generate and download QR codes for any URL in seconds.',
-    image: 'https://github.com/jaspreet-nahal/project/raw/main/Images/Gemini_Generated_Image_swvh90swvh90swvh.png',
+    image: 'https://github.com/jaspreet-nahal/Portfolio_Website/raw/main/Images/Gemini_Generated_Image_swvh90swvh90swvh.png',
     category: 'web',
     link: 'https://github.com/jaspreet-nahal/QR'
   },
@@ -98,7 +98,7 @@ const Projects: React.FC = () => {
     id: 12,
     title: 'Invoice Similarity Matching System',
     description: 'This framework uses a combination of text extraction, feature extraction, structural analysis and similarity calculation in order to be able to find out the invoice which has maximum similarities with some other data.',
-    image: 'https://github.com/jaspreet-nahal/project/raw/main/Images/1722439516480.jpg',
+    image: 'https://github.com/jaspreet-nahal/Portfolio_Website/raw/main/Images/1722439516480.jpg',
     category: 'web',
     link: '#'
   },
@@ -106,7 +106,7 @@ const Projects: React.FC = () => {
     id: 13,
     title: 'Stock Trading System',
     description: 'This is a project showing how to implement a stock trading strategy using a Simple Moving Average (SMA) Crossover approach with Python and PostgreSQL. It imports stock data from an Excel file into a database, implements a trading strategy based on short-term and long-term SMAs, and validates the data with unit tests. The project is divided into folders for data, database setup, strategy implementation, and testing, thus ensuring efficient management and execution of the trading strategy.',
-    image: 'https://github.com/jaspreet-nahal/my-images/raw/main/1734796608193.jpg',
+    image: 'https://github.com/jaspreet-nahal/Portfolio_Website/raw/main/Images/1734796608193.jpg',
     category: 'app',
     link: 'https://github.com/jaspreet-nahal/Stock-Trading-Strategy'
   }
