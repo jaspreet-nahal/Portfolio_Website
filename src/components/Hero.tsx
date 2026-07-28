@@ -9,22 +9,22 @@ const Hero: React.FC = () => {
       <div className="absolute bottom-10 left-0 sm:bottom-20 sm:left-10 w-44 h-44 sm:w-72 sm:h-72 bg-purple-300 dark:bg-purple-700 rounded-full blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
       <div className="absolute top-1/2 left-1/3 hidden lg:block w-96 h-96 bg-teal-300 dark:bg-teal-700 rounded-full blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.32),transparent_42%)] dark:bg-[radial-gradient(circle_at_top_right,rgba(148,163,184,0.12),transparent_45%)] pointer-events-none"></div>
-      
+
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-12 sm:py-16">
         <div className="flex flex-col items-center text-center">
           <div className="mb-6 overflow-hidden">
             <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white mb-4 animate-fade-in leading-tight">
               <span className="block">Jaspreet Singh Nahal</span>
-              <span className="block text-blue-600 dark:text-blue-400 mt-2 text-2xl sm:text-3xl md:text-5xl lg:text-6xl">Building Intelligent Web & AI Solutions</span>
+              <span className="block text-blue-600 dark:text-blue-400 mt-2 text-2xl sm:text-3xl md:text-5xl lg:text-6xl">AI/ML Engineer building production RAG systems, AI agents, and LLM applications</span>
             </h1>
           </div>
-          
+
           <div className="max-w-2xl mx-auto overflow-hidden px-1 sm:px-0">
-            <p className="text-base sm:text-lg md:text-2xl text-gray-700 dark:text-gray-300 mb-8 animate-fade-in animation-delay-300 leading-relaxed">
-              I create exceptional digital experiences that inspire and engage
+            <p className="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 animate-fade-in animation-delay-300 leading-relaxed">
+              Building production RAG systems, autonomous AI agents, and LLM applications.
             </p>
           </div>
-          
+
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in animation-delay-600 w-full sm:w-auto max-w-md sm:max-w-none">
             <a
               href="#projects"
@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-      
+
       <a
         href="#about"
         className="absolute bottom-6 sm:bottom-12 left-1/2 transform -translate-x-1/2 hidden sm:block text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors"

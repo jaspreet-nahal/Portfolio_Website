@@ -8,6 +8,9 @@ const About = React.lazy(() => import('./components/About'));
 const Projects = React.lazy(() => import('./components/Projects'));
 const Skills = React.lazy(() => import('./components/Skills'));
 const Contact = React.lazy(() => import('./components/Contact'));
+const Experience = React.lazy(() => import('./components/Experience'));
+const Publications = React.lazy(() => import('./components/Publications'));
+const Achievements = React.lazy(() => import('./components/Achievements'));
 import Footer from './components/Footer';
 import './styles/animations.css';
 
@@ -17,10 +20,10 @@ function App() {
   useEffect(() => {
     const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
     setDarkMode(userPrefersDark);
-    
+
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
     const handleChange = (e: MediaQueryListEvent) => setDarkMode(e.matches);
-    
+
     mediaQuery.addEventListener('change', handleChange);
     return () => mediaQuery.removeEventListener('change', handleChange);
   }, []);
@@ -33,14 +36,17 @@ function App() {
     <div className={`${darkMode ? 'dark' : ''} overflow-x-hidden`}>
       <Analytics />
       <SpeedInsights/>
-      
+
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <main className="overflow-x-hidden">
         <Hero />
         <Suspense fallback={<div className="text-center py-10 text-gray-500">Loading sections...</div>}>
         <About />
+        <Experience />
         <Projects />
+        <Publications />
         <Skills />
+        <Achievements />
         <Contact />
         </Suspense>
       </main>

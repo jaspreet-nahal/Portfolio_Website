@@ -3,8 +3,9 @@ export interface ProjectData {
   title: string;
   description: string;
   image: string;
-  category: 'web' | 'app' ;
+  category: 'web' | 'app';
   link: string;
+  featured?: boolean;
 }
 
 export interface SkillData {
