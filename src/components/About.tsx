@@ -2,8 +2,14 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-16 md:py-20 bg-white dark:bg-gray-900">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="about" className="py-16 md:py-20 relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-900 dark:to-gray-800 z-0"></div>
+      <div className="absolute top-10 right-0 sm:top-20 sm:right-10 w-40 h-40 sm:w-64 sm:h-64 bg-blue-300 dark:bg-blue-700 rounded-full blur-3xl opacity-25 animate-blob"></div>
+      <div className="absolute bottom-10 left-0 sm:bottom-20 sm:left-10 w-44 h-44 sm:w-72 sm:h-72 bg-purple-300 dark:bg-purple-700 rounded-full blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+      <div className="absolute top-1/2 left-1/3 hidden lg:block w-96 h-96 bg-teal-300 dark:bg-teal-700 rounded-full blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.32),transparent_42%)] dark:bg-[radial-gradient(circle_at_top_right,rgba(148,163,184,0.12),transparent_45%)] pointer-events-none"></div>
+
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">About Me</h2>
           <div className="w-20 h-1 bg-blue-600 dark:bg-blue-400 mx-auto"></div>
@@ -12,33 +18,35 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="order-2 lg:order-1">
             <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              I'm Jaspreet Singh Nahal, a Computer Science Student
+              AI/ML Engineer building production RAG systems, AI agents, and LLM applications
             </h3>
             <p className="text-base md:text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-            Software with intelligence that gives the impression of being purposeful, scalable, and thoughtfully designed is what I enjoy building. 
-            I frequently work at the point of union between all the development and applied AI; it could be designing low-latency APIs, data-driven backend crafting or modern language integrating into the products that I take care of. 
-            I give a lot of importance to clean architecture, performance, and systems that are easy to extend rather than quick hacks.
+              I pretrained a 205M-parameter GPT Transformer from scratch in PyTorch on 10B tokens (arXiv:2606.11212).
+              I built a production RAG system serving 10,000+ legal documents with sub-2-second response times at
+              Expedien. Currently building Aria, a local-first autonomous agent architecture with a
+              React-based visualization frontend using LangGraph and FastAPI.
             </p>
             <p className="text-base md:text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
-            One of my main interests is the process of how ideas transition from theory to production. My curiosity has been a reason for my involvement in many projects including AI chatbots, trading systems, and first-principle language model development. 
-            During this period I have built a very strong problem-solving mentality through rigorous algorithmic practice, hackathons, and hands-on experimentation. 
-            I firmly believe that the finest software is produced when tech depth is paired with clarity of purpose and that’s the benchmark I set in everything I build.
+              My focus is on systems where ML meets production engineering: retrieval-augmented generation,
+              agent architectures, local-first inference with Ollama, and making LLMs efficient enough to run on
+              consumer hardware. I work across the stack with PyTorch, FastAPI, React, PostgreSQL, FAISS,
+              and value clean architecture and measurable performance over hype.
             </p>
-            
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-              <div>
+              <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-xl p-4 border border-gray-100 dark:border-gray-700">
                 <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Name</h4>
                 <p className="text-gray-700 dark:text-gray-300">Jaspreet Singh Nahal</p>
               </div>
-              <div>
+              <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-xl p-4 border border-gray-100 dark:border-gray-700">
                 <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Email</h4>
                 <p className="text-gray-700 dark:text-gray-300">jaspreetnahal100@gmail.com</p>
               </div>
-              <div>
+              <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-xl p-4 border border-gray-100 dark:border-gray-700">
                 <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Location</h4>
                 <p className="text-gray-700 dark:text-gray-300">New Delhi, India</p>
               </div>
-              <div>
+              <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-xl p-4 border border-gray-100 dark:border-gray-700">
                 <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Availability</h4>
                 <p className="text-gray-700 dark:text-gray-300">Freelance & Full-time</p>
               </div>
@@ -50,7 +58,7 @@ const About: React.FC = () => {
               Hire Me
             </a>
           </div>
-          
+
           <div className="order-1 lg:order-2 relative max-w-sm mx-auto lg:max-w-none">
             <div className="aspect-square rounded-2xl overflow-hidden relative z-10 shadow-xl">
               <img
