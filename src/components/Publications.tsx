@@ -68,8 +68,8 @@ const Publications: React.FC = () => {
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-base md:text-lg">
                   A hybrid GPT–RAG system that routes <strong className="text-gray-900 dark:text-white">85% of queries to fast retrieval</strong>,
                   skipping full generation for a <strong className="text-gray-900 dark:text-white">6.3× latency reduction</strong>
-                  while maintaining answer quality. Includes a <strong className="text-gray-900 dark:text-white">205M-parameter GPT pretrained from scratch</strong>
-                  on 10B tokens (FineWeb-Edu), benchmarked against 8 baselines including LangChain RAG.
+                  while maintaining answer quality. Includes a <strong className="text-gray-900 dark:text-white">205M-parameter GPT pretrained from scratch </strong>
+                  on subset of 10B tokens (FineWeb-Edu, Dolly and more!), benchmarked against 8 baselines including LangChain RAG.
                   Runs fully on consumer CPU under 2 GB RAM.
                 </p>
               </div>
