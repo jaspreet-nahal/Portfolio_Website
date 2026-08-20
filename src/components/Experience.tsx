@@ -17,6 +17,33 @@ const Experience: React.FC = () => {
   const experiences: ExperienceItem[] = [
     {
       id: 1,
+      role: 'Research Intern, Agentic AI & LLMs',
+      company: 'IIT Kharagpur',
+      logoUrl: '/iit-kgp-logo.svg',
+      location: 'India',
+      period: 'Aug 2026 – Nov 2026 (Expected)',
+      description: [
+        'Building Jantram, a multi-agent LLM fact-checking pipeline in LangGraph implementing claim extraction, evidence retrieval, and verification with conditional graph edges for insert/discard/flag decisions.',
+        'Proposed hash-based duplicate detection for claim IDs and evaluated semantic-similarity versus keyword-based claim matching to improve conflict detection.',
+      ],
+      technologies: ['LangGraph', 'LLMs', 'Python', 'Fact-Checking', 'Multi-Agent Systems', 'RAG'],
+      type: 'internship',
+    },
+    {
+      id: 2,
+      role: 'AI & Cloud Engineer Intern',
+      company: 'Cloud Inn Tech',
+      logoUrl: '/cloud-inn-tech-logo.svg',
+      location: 'India',
+      period: 'Jul 2026 – Sep 2026',
+      description: [
+        'Built multi-tenant RAG infrastructure for an AI Tender/RFP Copilot with PostgreSQL row-level security, a deterministic/auditable LLM provider layer, and retry-with-backoff/circuit-breaker resilience patterns.',
+      ],
+      technologies: ['PostgreSQL', 'RAG', 'LLM', 'Row-Level Security', 'Circuit Breaker', 'Retry Patterns', 'Cloud Architecture', 'Python'],
+      type: 'internship',
+    },
+    {
+      id: 3,
       role: 'Machine Learning Intern',
       company: 'Expedien',
       logoUrl: '/expedien-logo.png',
@@ -31,7 +58,7 @@ const Experience: React.FC = () => {
       type: 'internship',
     },
     {
-      id: 2,
+      id: 4,
       role: 'Algorithmic Trading Developer (Freelance)',
       company: 'Freelance',
       logoUrl: '/freelance-logo.png',

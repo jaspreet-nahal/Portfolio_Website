@@ -64,7 +64,7 @@ const Skills: React.FC = () => {
       icon: <Layout className="w-6 h-6 text-blue-600 dark:text-blue-400" />,
       skills: [
         { name: 'React.js', logo: <img src={ReactLogo} alt="React.js" className="w-8 h-8" /> },
-        { name: 'Next.js', logo: <img src={ReactLogo} alt="Next.js" className="w-8 h-8" /> },
+        { name: 'Next.js', logo: <img src="/nextjs.svg" alt="Next.js" className="w-8 h-8" /> },
         { name: 'FastAPI', logo: <img src={FastAPILogo} alt="FastAPI" className="w-8 h-8" /> },
         { name: 'Flask', logo: <img src={FlaskLogo} alt="Flask" className="w-8 h-8" /> },
         { name: 'Node.js', logo: <img src={NodeLogo} alt="Node.js" className="w-8 h-8" /> },
@@ -86,6 +86,7 @@ const Skills: React.FC = () => {
         { name: 'MongoDB', logo: <img src={MongoLogo} alt="MongoDB" className="w-8 h-8" /> },
         { name: 'Redis', logo: <img src={RedisLogo} alt="Redis" className="w-8 h-8" /> },
         { name: 'MySQL', logo: <img src={MySQLLogo} alt="MySQL" className="w-8 h-8" /> },
+        { name: 'ChromaDB', logo: <img src="/Chroma--Streamline-Svg-Logos.svg" alt="ChromaDB" className="w-8 h-8" /> },
       ]
     },
     {
