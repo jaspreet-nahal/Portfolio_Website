@@ -3,7 +3,7 @@ export interface ProjectData {
   title: string;
   description: string;
   image: string;
-  category: 'web' | 'app';
+  category: 'web' | 'app' | 'research';
   link: string;
   featured?: boolean;
 }

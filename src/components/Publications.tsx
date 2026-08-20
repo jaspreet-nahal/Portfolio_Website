@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, FileText, Award, Clock, Brain } from 'lucide-react';
+import { ExternalLink, FileText, Award, Clock, Brain, AlertCircle, FlaskConical } from 'lucide-react';
 
 const Publications: React.FC = () => {
   return (
@@ -12,14 +12,15 @@ const Publications: React.FC = () => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Publications</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Publications & Research</h2>
           <div className="w-20 h-1 bg-blue-600 dark:bg-blue-400 mx-auto mb-8"></div>
           <p className="max-w-2xl mx-auto text-lg text-gray-700 dark:text-gray-300">
-            Peer-reviewed preprints and conference publications in AI/ML.
+            Peer-reviewed preprints, conference publications, and ongoing research in AI/ML.
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto space-y-8">
+          {/* EverydayGPT - Published */}
           <article className="relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border border-gray-100 dark:border-gray-700 shadow-xl overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 via-purple-600 to-teal-500"></div>
 
@@ -134,6 +135,110 @@ const Publications: React.FC = () => {
                   </svg>
                   View Source Code
                 </a>
+              </div>
+            </div>
+          </article>
+
+          {/* Agentic Appliance Control & Energy Monitoring - Upcoming Research */}
+          <article className="relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border border-amber-200 dark:border-amber-800 shadow-xl overflow-hidden">
+            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-amber-500 via-orange-500 to-red-500"></div>
+
+            <div className="p-6 md:p-8 lg:p-10">
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6 mb-8">
+                <div className="flex-1">
+                  <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 rounded-full text-sm font-medium mb-4">
+                    <AlertCircle className="w-4 h-4" />
+                    <span>Upcoming Research (In Progress)</span>
+                  </div>
+                  <h3 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4 leading-tight">
+                    Agentic Appliance Control & Energy Monitoring
+                  </h3>
+                  <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600 dark:text-gray-400 mb-4">
+                    <span className="font-medium text-gray-900 dark:text-white">Jaspreet Singh Nahal</span>
+                    <span className="text-gray-400">•</span>
+                    <span>AKTU Group Project</span>
+                    <span className="text-gray-400">•</span>
+                    <span>2026</span>
+                    <span className="text-gray-400">•</span>
+                    <span className="inline-flex items-center gap-1 px-3 py-1 bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 rounded-full text-xs font-medium">
+                      <FlaskConical className="w-3 h-3" />
+                      In Progress
+                    </span>
+                  </div>
+                </div>
+                <div className="flex-shrink-0">
+                  <span className="inline-flex items-center gap-2 px-5 py-3 bg-amber-50 dark:bg-amber-900/20 text-amber-700 dark:text-amber-300 font-medium rounded-xl">
+                    <AlertCircle className="w-5 h-5" />
+                    Ongoing Work
+                  </span>
+                </div>
+              </div>
+
+              <div className="prose prose-amber dark:prose-invert max-w-none mb-8">
+                <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-base md:text-lg">
+                  <strong className="text-gray-900 dark:text-white">Literature Review & Methodology:</strong> Identified four recurring gaps in home energy management research
+                  (static rule-based control, cloud-only reasoning, simulation-only validation, single-purpose sensor nodes) and designed
+                  an edge-cloud hybrid methodology with targeted research questions to address them.
+                </p>
+                <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-base md:text-lg mt-4">
+                  <strong className="text-gray-900 dark:text-white">AI/ML Reasoning Layer (Owner):</strong> Building a multi-agent LangGraph system over live IoT telemetry
+                  (ESP32/PZEM-004T) performing anomaly detection via Isolation Forest and load forecasting via Prophet.
+                  Targeting 12–18% reduction in household energy cost with a full evaluation plan including precision/recall,
+                  MAE/RMSE, and difference-in-differences analysis.
+                </p>
+                <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-base md:text-lg mt-4">
+                  <strong className="text-gray-900 dark:text-white">Tech Stack:</strong> LangGraph, n8n, IoT (ESP32/PZEM-004T), Isolation Forest, Prophet, Python, Edge-Cloud Hybrid Architecture.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+                <div className="flex items-center gap-3 p-4 bg-amber-50 dark:bg-amber-900/20 rounded-xl">
+                  <div className="w-10 h-10 bg-amber-100 dark:bg-amber-900/30 rounded-lg flex items-center justify-center">
+                    <FlaskConical className="w-5 h-5 text-amber-600 dark:text-amber-400" />
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">Status</p>
+                    <p className="font-bold text-gray-900 dark:text-white">In Progress</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 p-4 bg-orange-50 dark:bg-orange-900/20 rounded-xl">
+                  <div className="w-10 h-10 bg-orange-100 dark:bg-orange-900/30 rounded-lg flex items-center justify-center">
+                    <Brain className="w-5 h-5 text-orange-600 dark:text-orange-400" />
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">AI/ML Layer</p>
+                    <p className="font-bold text-gray-900 dark:text-white">LangGraph + Prophet</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 p-4 bg-red-50 dark:bg-red-900/20 rounded-xl">
+                  <div className="w-10 h-10 bg-red-100 dark:bg-red-900/30 rounded-lg flex items-center justify-center">
+                    <Award className="w-5 h-5 text-red-600 dark:text-red-400" />
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">Target Reduction</p>
+                    <p className="font-bold text-gray-900 dark:text-white">12–18% Energy Cost</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-xl">
+                  <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center">
+                    <ExternalLink className="w-5 h-5 text-blue-600 dark:text-blue-400" />
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">IoT Hardware</p>
+                    <p className="font-bold text-gray-900 dark:text-white">ESP32 / PZEM-004T</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-wrap gap-4">
+                <span className="inline-flex items-center gap-2 px-6 py-3 bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 font-medium rounded-xl border border-amber-300 dark:border-amber-700">
+                  <AlertCircle className="w-5 h-5" />
+                  Research In Progress
+                </span>
+                <span className="inline-flex items-center gap-2 px-6 py-3 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 font-medium rounded-xl">
+                  <FileText className="w-5 h-5" />
+                  Manuscript In Preparation
+                </span>
               </div>
             </div>
           </article>
