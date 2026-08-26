@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
       description: 'Built a confidence-gated routing system that skips full GPT generation for 85% of queries, achieving 6.3x average latency reduction. Pretrained a 205M-parameter GPT from scratch on 10B tokens (FineWeb-Edu); benchmarked against 8 baselines including LangChain RAG. Runs fully on consumer CPU under 2GB RAM. Published on arXiv:2606.11212.',
       image: 'https://github.com/jaspreet-nahal/my-images/raw/main/Screenshot%202025-08-27%20103737.png',
       category: 'app',
-      link: 'https://github.com/jaspreet-nahal/RAG-GPT',
+      link: 'https://github.com/jaspreet-nahal/EverydayGPT',
       featured: true,
     },
     {
@@ -31,7 +31,7 @@ const Projects: React.FC = () => {
       description: 'Local-first autonomous desktop agent with a React-based visualization frontend. Converts natural language into structured OS-level task execution across files, email, and browser with zero cloud dependency. Multi-agent debate layer via LangGraph where competing sub-agents verify action correctness before irreversible execution. Tiered safety model (auto-execute / confirm / reject). Persistent memory for organizational context and task history with FastAPI backend, Ollama local inference, and FAISS retrieval.',
       image: 'https://github.com/jaspreet-nahal/Portfolio_Website/raw/main/Images/Bright%20Logo.png',
       category: 'app',
-      link: 'https://github.com/jaspreet-nahal/Aria',
+      link: 'https://github.com/jaspreet-nahal/Aria_Public',
       featured: true,
     },
     {
@@ -45,11 +45,11 @@ const Projects: React.FC = () => {
     },
     {
       id: 5,
-      title: 'RAG Legal Query Resolver (Expedien)',
+      title: 'RAG Legal Query Resolver',
       description: 'Production RAG-based legal query resolver built during ML Internship at Expedien (Aug–Oct 2025). Engineered with LangChain, FAISS, and Hugging Face Transformers over 10,000+ legal documents. Sub-2-second end-to-end response time with Streamlit UI, 40% throughput improvement. Applied instruction fine-tuning and prompt engineering to reduce hallucinations across the production pipeline.',
       image: 'https://github.com/jaspreet-nahal/Portfolio_Website/raw/main/Images/Gemini_Generated_Image_w624zaw624zaw624.png',
       category: 'web',
-      link: 'https://github.com/jaspreet-nahal/Expedien_RAG',
+      link: 'https://github.com/jaspreet-nahal/RAG-Legal-Query-Resolver',
       featured: true,
     },
     {
@@ -58,7 +58,7 @@ const Projects: React.FC = () => {
       description: 'Live automated trading system with SMA Crossover strategy implemented in Python and PostgreSQL. Achieved 30% latency reduction through optimized data ingestion from Excel to database, strategy implementation with short-term/long-term SMAs, and comprehensive unit testing. Freelance project (Nov–Dec 2024).',
       image: 'https://github.com/jaspreet-nahal/Portfolio_Website/raw/main/Images/1734796608193.jpg',
       category: 'app',
-      link: 'https://github.com/jaspreet-nahal/Stock-Trading-Strategy',
+      link: 'https://github.com/jaspreet-nahal/SMA-Crossover-Trading-System',
       featured: true,
     },
     // ADDITIONAL PROJECTS (shown when "Show More" is clicked)
@@ -77,7 +77,7 @@ const Projects: React.FC = () => {
       description: 'Chatbot built using React, Python, and other tools.',
       image: 'https://github.com/jaspreet-nahal/Portfolio_Website/raw/main/Images/Gemini_Generated_Image_k6joz1k6joz1k6jo.png',
       category: 'web',
-      link: 'https://github.com/jaspreet-nahal/AI_US',
+      link: 'https://github.com/jaspreet-nahal/AI_CHATBOT',
       featured: false,
     },
     {
@@ -91,15 +91,6 @@ const Projects: React.FC = () => {
     },
     {
       id: 10,
-      title: 'AI Restaurant Manager',
-      description: 'Restaurant appointment scheduling chatbot based on AI to facilitate quick and easy reservation booking. Automates reservation management, minimizes manual labor, and improves customer satisfaction through real-time availability and instant confirmation.',
-      image: 'https://github.com/jaspreet-nahal/Portfolio_Website/raw/main/Images/Gemini_Generated_Image_gz25ylgz25ylgz25.png',
-      category: 'app',
-      link: 'https://github.com/jaspreet-nahal/AI-Restro-Manager',
-      featured: false,
-    },
-    {
-      id: 11,
       title: 'AI Document Reader',
       description: 'Intelligent document processing system using advanced AI algorithms to analyze and engage with one or multiple documents uploaded by users. Features smooth upload and document handling, ability to ask contextual questions and get accurate answers from the document(s), and enhanced NLP for better user experience.',
       image: 'https://github.com/jaspreet-nahal/my-images/raw/main/1734851602981.jpg',
@@ -108,7 +99,7 @@ const Projects: React.FC = () => {
       featured: false,
     },
     {
-      id: 12,
+      id: 11,
       title: 'QR Code Generator',
       description: 'Sleek and responsive web application that allows users to generate and download QR codes for any URL in seconds.',
       image: 'https://github.com/jaspreet-nahal/Portfolio_Website/raw/main/Images/Gemini_Generated_Image_swvh90swvh90swvh.png',
@@ -117,7 +108,7 @@ const Projects: React.FC = () => {
       featured: false,
     },
     {
-      id: 13,
+      id: 12,
       title: 'Invoice Similarity Matching System',
       description: 'Framework using text extraction, feature extraction, structural analysis, and similarity calculation to find invoices with maximum similarity to reference data.',
       image: 'https://github.com/jaspreet-nahal/Portfolio_Website/raw/main/Images/1722439516480.jpg',
