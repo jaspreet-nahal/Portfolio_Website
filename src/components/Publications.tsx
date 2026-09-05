@@ -125,7 +125,7 @@ const Publications: React.FC = () => {
                   Read Paper on arXiv
                 </a>
                 <a
-                  href="https://github.com/jaspreet-nahal/RAG-GPT"
+                  href="https://github.com/jaspreet-nahal/EverydayGPT"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-700 dark:text-gray-300 font-medium rounded-xl transition-colors"
